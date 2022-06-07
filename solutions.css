@@ -53,3 +53,54 @@
     transform: scale(1.5);
 }
 
+@keyframes spin {
+
+    0% {
+
+        transform:rotate(0deg);
+    }
+
+
+    100% {
+
+        transform: rotate(-360deg);
+    }
+    
+}
+
+@keyframes spin-2 {
+
+    0% {
+
+        transform:rotate(0deg);
+    }
+
+
+    80% {
+
+        transform: rotate(180deg);
+    }
+
+    100 % {
+
+        transform: rotate(0deg)
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+
+    left: 50%;
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+
+    right: 50%;
+
+}
+
+
+.ex-13-button:hover .ex-13-bottom-white {
+
+    right:50%;
+}
